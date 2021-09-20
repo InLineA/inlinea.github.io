@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+@media (max-width: 767px){
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color: #363636;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;    
+}
+
+.top{
+    position: absolute;
+    top: 0;
+}
+
+header{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.menu{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-table{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+}
+
+.menu-line{
+    z-index: 2;
+    padding: 0px 5vw 0px;
+    text-transform: uppercase;
+    background-color: #121212;
+}
+
+.menu-lines{
+    background-color: #121212;
+}
+
+.ada{
+    width: 100%;
+}
+
+.container-main{
+    margin-top: 57.333px;
+    height: 100vh;  
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-position: center;
+}
+
+.container-shid{
+    background-image: url(../images/shid/7e7af72f-03a5-42d9-b2bd-e0880ab39ca1.jpg);
+    height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
+}
+
+.container-mark{
+    background-image: url(../images/mark/e1cd97cc-24e5-488c-b317-9e783fcf9d17.jpg);
+    height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: top;
+}
+
+.container-jack{
+    background-image: url(../images/jack/23b679d4-f23b-47ab-9b1d-7ee6dc7aac7a.jpg);
+    height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
+}
+
+.ad{
+    width: 100px;
+}
+
+.arrow{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.opasity{
+    background-color: #252525;
+    opacity: 0;
+    z-index: 1;
+    height: 90%;
+    transition-property: opacity;
+    transition-duration: 0.7s;
+}.opasity:hover{
+    opacity: 0.5;
+}
+
+.text{
+    color: #ffffff;
+    background-color: #252525;
+    padding: 30px;
+    padding-top: 50px;
+    font-size: 21px;
+    width: 95%;
+    opacity: 1;
+}
+
+}
+
+
+@media (min-width: 768px){
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    background-color: #363636;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;    
+}
+
+.top{
+    position: absolute;
+    top: 0;
+}
+
+header{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.menu{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-table{
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+}
+
+.menu-line{
+    z-index: 2;
+    padding: 0px 5vw 0px;
+    text-transform: uppercase;
+    background-color: #121212;
+}
+
+.menu-lines{
+    background-color: #121212;
+}
+
+.container-main{
+    margin-top: 57.333px;
+    height: 100vh;  
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-position: center;
+}
+
+.container-shid{
+    background-image: url(../images/shid/7e7af72f-03a5-42d9-b2bd-e0880ab39ca1.jpg);
+    height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
+}
+
+.container-mark{
+    background-image: url(../images/mark/e1cd97cc-24e5-488c-b317-9e783fcf9d17.jpg);
+    height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: top;
+}
+
+.container-jack{
+    background-image: url(../images/jack/23b679d4-f23b-47ab-9b1d-7ee6dc7aac7a.jpg);
+    height: 100vh;    
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center;
+}
+
+.arrow{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.opasity{
+    background-color: #252525;
+    opacity: 0;
+    z-index: 1;
+    height: 1272.667px;
+    transition-property: opacity;
+    transition-duration: 0.7s;
+}.opasity:hover{
+    opacity: 0.5;
+}
+
+.text{
+    color: #ffffff;
+    background-color: #252525;
+    padding: 30px;
+    padding-top: 50px;
+    font-size: 25px;
+    width: 25%;
+    opacity: 1;
+}
+
+}
